@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+var masculino = 0;
+var feminino = 0;
+for (var i = 0; i <= 3; i++)
+{
+    var altura = Number(prompt("Digite uma altura: "));
+    var sexo = (prompt("Digite o sexo: "));
+    if(sexo == "feminino")
+    {
+     feminino = feminino + 1;
+    }
+    if(sexo == "masculino"){
+    masculino = masculino + 1;
+    }
+}
+document.write(masculino+"<br>"+feminino);
+</script>
+</head>
+</html>
